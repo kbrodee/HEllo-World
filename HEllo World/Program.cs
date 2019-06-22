@@ -13,7 +13,7 @@ namespace HEllo_World
             
             Console.WriteLine("Hello! Who are you?");
                 string Name = Console.ReadLine();
-            Console.WriteLine($"Ok {Name}, Tell us what year where you born in?");
+            Console.WriteLine($"Ok {Name}, Tell us what year you were born in?");
                 string YearBorn = Console.ReadLine();
             Console.WriteLine($"To get this right, {Name} you were born in {YearBorn} Right?");
             Console.ReadKey();
