@@ -19,14 +19,14 @@ namespace HEllo_World
             Console.ReadKey();
             DateTime now = DateTime.Today;
                 String CYear = now.ToString("yyyy");
-            int num1 = 0, num2 = 0;
+            int RCY = 0, DOB = 0;
 
-            num1 = Convert.ToInt32(CYear);
-            num2 = Convert.ToInt32(YearBorn);
+            RCY = Convert.ToInt32(CYear);
+            DOB = Convert.ToInt32(YearBorn);
 
             int AnswerSubtract;
 
-            AnswerSubtract = num2 - num1;
+            AnswerSubtract = RCY - DOB;
                         
             Console.WriteLine ($"{Name} you are about "  + AnswerSubtract + " Years Old");
             Console.ReadKey();
