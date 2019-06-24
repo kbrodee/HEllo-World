@@ -19,6 +19,7 @@ namespace HEllo_World
             Console.ReadKey();
             DateTime now = DateTime.Today;
                 String CYear = now.ToString("yyyy");
+                       //Cyear is current year
             int num1 = 0, num2 = 0;
 
             num1 = Convert.ToInt32(CYear);
